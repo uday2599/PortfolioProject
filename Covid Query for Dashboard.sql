@@ -1,3 +1,5 @@
+Tableau Dashboard lisnk:- https://public.tableau.com/app/profile/uday6136/viz/CovidDashboard_16246267378260/Dashboard1
+
 --Sheet1-Table
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
 From PortfolioProject..CovidDeaths
@@ -38,6 +40,5 @@ From PortfolioProject..CovidDeaths
 --Where location like '%states%'
 Group by Location, Population, date
 order by PercentPopulationInfected desc
-
 
 
